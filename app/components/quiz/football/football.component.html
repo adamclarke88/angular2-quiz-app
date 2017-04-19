@@ -1,0 +1,32 @@
+<div class="container">
+    <div class="quiz-intro">
+        <p>Football intro info here, instructions and how to play FFDFSFSGGDGHDGSA.</p>
+        <p>Click on Hint to reveal a clue!</p>
+    </div>
+</div>
+
+<div class="quiz-content">
+
+    <div class="container" *ngFor="let question of questions">
+        <div class="panel panel-default">
+            <div class="panel-heading">{{question.questionNumber}}. {{question.text}}</div>
+            <div class="panel-body">
+                <p (click)="showHint(question)">Hint: {{question.hintText}}</p>
+            </div>
+
+
+        <div class="btn-group btn-group-justified" role="group" aria-label="...">
+            <div class="btn-group" role="group" *ngFor="let option of question.options ">
+                <button (click)="checkAnswer(question, option)" type="button" class="btn btn-default" >{{option}}</button>  
+            </div>
+
+            
+        </div>
+    </div>
+</div>
+
+
+
+
+ 
+

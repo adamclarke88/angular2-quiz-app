@@ -1,0 +1,103 @@
+
+
+body {
+    padding-top: 50px;
+    background-color: #38343B;
+}
+
+/* NAV BAR STYLES */
+
+.navbar {
+    height: 10%;
+    text-align: center;
+    background-color: #2B282D; 
+}
+
+.navbar-brand {
+    position: relative;
+    top: 20px;
+    font-size: 45pt;
+    font-weight: bold;
+    color: #EA6B23 !important;
+}
+
+.navbar-nav {
+    position: relative;
+    top: 20px;
+    font-size: 13pt;
+}
+
+.navbar-right {
+    position: relative;
+    top: 20px;
+}
+
+/* STICKY FOOTER STYLES */
+
+footer {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  /* Set the fixed height of the footer here */
+  height: 60px;
+  line-height: 60px; /* Vertically center the text there */
+  background-color: #2D2A2F;
+  border: 1px !important;
+  z-index: 1;
+}
+
+/* INTRO PAGE STYLES */
+
+p, h1, h2, h3, h4, h5, h6 {
+    color: #D4D4D4;
+    font-size: 12pt;
+}
+
+/* QUIZ-CONTENT STYLES */
+
+.quiz-intro {
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+
+.quiz-content {
+   padding-bottom: 60px;
+}
+
+.jumbotron {
+
+    background-color: #454049	;
+}
+
+.panel {
+    border: 0;
+    margin-bottom: 50px;
+}
+
+.panel-body {
+    background-color: #454049;
+    outline-color: black !important;
+}
+
+.panel-heading {
+    background-color: #2D2A2F !important;
+    color: white !important;
+    border-bottom-color: black !important;
+    font-size: 16pt;
+    }
+
+.css-right {
+    background-color: green;
+}
+.css-wrong {
+    background-color: red;
+}
+
+/*.quiz-content .container:last-child{
+    margin-bottom: 60px;
+
+this is another way to achieve padding or any desired effect you want on the
+last child of an element.  for example, the last time the container class is
+used on the page.
+
+}*/
