@@ -15,7 +15,7 @@ export const FootballQuestions: FootballQuestion[] = [
         hint: "They play their football at the 'Deva Stadium'.",
         hintText: "",
         answer: "Chester",
-        options: ["Macclesfield Town", "Crewe Alexandra", "Chester", "Wrexham"],
+        options: ["Macclesfield Town", "Crewe Alexandra", "Chester", "Plymouth Argyle"],
         status:""
     },
     {
